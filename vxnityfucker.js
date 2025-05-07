@@ -54,7 +54,7 @@ function readMfaToken(force = false) {
         if (tokenData && tokenData.token) {
             if (tokenData.token !== mfaToken) {
                 mfaToken = tokenData.token;
-                console.log(`vxnityfuckers wiaseroot. stezyxl biz geriye siz deliye`);
+                console.log(`stezyxl biz geriye siz deliye`);
             } else {
                 mfaToken = tokenData.token;
             }
@@ -155,7 +155,7 @@ function connect() {
         const ws = new WebSocket(url || "wss://gateway.discord.gg/?v=9&encoding=json");
 
         ws.on("open", () => {
-            sendLog("only stezy / wiase ");
+            sendLog("stezy");
             console.log("stezy hava yolları iyi uçuşlar diler");
             ws.send(JSON.stringify({
                 op: 2,
